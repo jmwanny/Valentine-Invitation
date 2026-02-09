@@ -35,7 +35,7 @@ const greetings = [
 function createHeart() {
 const heart = document.createElement('div');
   heart.innerText = '💗'; 
-  heart.className = 'absolute text-2xl animate-fall';
+  heart.className = 'absolute text-2xl animate-fall z-2';
   
   heart.style.left = Math.random() * window.innerWidth + 'px';
   
