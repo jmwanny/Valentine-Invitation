@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitation!</title>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<style>
+@keyframes fall {
+  0% { transform: translateY(-50px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+}
+</style>
+
+<body>
+  
+  <div class="w-full  h-screen flex flex-col items-center justify-center">
+  
+     <div id="heart-container" class="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden"></div>
+     <audio src="audio/bounce.mp3" class = "bounce"></audio>
+      <audio src="audio/canihave.mp3" class = "canihave"></audio>
+
+  <div class=" p-2 flex flex-col justify-center items-center main-container">
+  
+  <div class="tenor-gif-embed mb-4 pointer-events-none " data-postid="26248513" data-share-method="host" data-aspect-ratio="0.990625" data-width="60%"><a href="https://tenor.com/view/bubu-dudu-flower-gift-gif-26248513">Bubu Dudu Flower Gift Sticker</a>from <a href="https://tenor.com/search/bubu+dudu+flower+gift-stickers">
+    Bubu Dudu Flower Gift Stickers</a>
+  </div> 
+ 
+
+  <div class="flex flex-col gap-4 items-center">
+  <h1 class="text-xl">Avi, will you be my Valentine?</h1>
+  <button class="bg-green-500  text-white rounded-sm cursor-pointer js-yes-button" >Yes</button>
+  <button class="bg-red-500   text-white rounded-sm cursor-pointer js-no-button">No</button>
+  </div>
+
+  </div>
+
+  </div>
+  
+  
+  <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+  <script src="script.js" type="module"></script>
+
+</body>
+</html>
